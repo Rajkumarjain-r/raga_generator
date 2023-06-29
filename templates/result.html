@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+
+  <div class="table-users">
+   <div class="header">Sargam Generator</div>
+
+    <table style="width:100%">
+      <tr>
+         <th>Aaroh</th>
+      </tr>
+         {% for list in aaroh %}
+      <tr>
+          <td>{{list}}</td>
+       {% endfor %}
+      </tr>
+   </table>
+
+      <table style="width:100%">
+      <tr>
+         <th>Avroh</th>
+      </tr>
+         {% for list in avroh %}
+      <tr>
+          <td>{{list}}</td>
+       {% endfor %}
+      </tr>
+   </table>
+</div>
+
+
+
+</body>
+
+</html>
