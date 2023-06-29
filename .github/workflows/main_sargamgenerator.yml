@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'sargamGenerator'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E94CE3319C9743109A48516FE767DB33 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A97ECD078E1429AAA4E1BE8D0EBC1E3 }}
